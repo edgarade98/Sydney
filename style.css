@@ -1,3 +1,68 @@
 body {
-    background: blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+nav 
+{
+    justify-content: space-between;
+    position: sticky;
+    align-items: center;
+    top: 0;
+    left: 0;
+    display: flex;
+    z-index: 1;
+    box-shadow: 0 3px 5px rgba(0, 0, 0.2, 0.1);
+    padding: 0px, 2px, 0px, 2px ;
+    
+}
+nav h1 {
+    color: blue;
+    padding-left: 50px;
+    font-family: cursive;
+    font-size: 30px;
+}
+nav a {
+    color: blue;
+    transition: 0.3s;
+    text-decoration: none;
+}
+nav ul {
+    display: flex;
+    gap: 1.9rem;
+}
+nav ul li {
+    font-family: monospace;
+    font-size: 15px;
+    padding-right: 23px;
+}
+.program {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin: auto;
+   gap: 2rem;
+   max-width: 68rem;
+
+}
+.program img {
+    height: 50%;
+    width: 50%;
+}
+.program h2 {
+    font-family: fantasy;
+    font-size: 45px;
+    text-align: center;
+}
+.program h3 {
+    text-align: center;
+    font-family: fantasy;
+}
+div {
+   border-radius: 20px;
+   box-shadow: 5px 5px 10px grey;
+}
+div p {
+    text-align: center;
+    font-family: fantasy;
 }
