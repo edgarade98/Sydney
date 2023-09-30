@@ -1,6 +1,7 @@
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
+    background-image: url(background.jpg);
+    background-attachment: fixed;
 }
 
 nav 
@@ -14,7 +15,7 @@ nav
     z-index: 1;
     box-shadow: 0 3px 5px rgba(0, 0, 0.2, 0.1);
     padding: 0px, 2px, 0px, 2px;
-    
+    background-color: white;
 }
 nav h1 {
     color: blue;
